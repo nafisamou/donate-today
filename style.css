@@ -42,7 +42,7 @@ body{
         color: white;
         background-color: red;
         padding: 5px;
-        margin: 10px;
+        margin: 25px;
         border-radius: 10px;
         font-size: large;
         font-weight: 300;
@@ -112,4 +112,19 @@ background-color: rgba(111, 77, 67, 0.236);
        margin: 5px ;
        box-shadow: 8px 15px 10px gray;
         border-radius: 10px;
+}
+.donate-people{
+    display: flex;
+    justify-content: center center;
+    align-items: center center;
+    
+}
+.contribute{
+    width: 50%;
+    margin: 20px 10px 10px 10px;
+}
+.pic-area{
+    width: 40%;
+    margin-left: 60%;
+    margin-top:-5% ;
 }
