@@ -8,7 +8,7 @@ body{
     
 }
 .cover-area{
-    background-image: url(donation5.jpg);
+    background-image: url(donation1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: soft-light;
@@ -25,11 +25,12 @@ body{
     top: 50%;
     left: 50%;
     text-align: center;
-    color: white;
+    color:whitesmoke;
     font-weight: 100;
     margin:0;
     padding: 0;
     transform:  translateX(-50%) translateY(-50%);
+    font-weight: 900px;
 }
 .font-style{
     font-weight: 100;
@@ -42,7 +43,7 @@ body{
         color: white;
         background-color: red;
         padding: 5px;
-        margin: 25px;
+        margin: 75px;
         border-radius: 10px;
         font-size: large;
         font-weight: 300;
@@ -56,8 +57,8 @@ body{
         left: 50%; */
         text-align: center;
         color: black;
-        font-weight: 100;
-        margin:0;
+        font-weight: 500px;
+        margin:auto;
         padding: 0;
        
 
@@ -91,7 +92,8 @@ body{
         width: 70%;
         padding: 0px;
         margin: auto; 
-        top: 5px;
+        top: 15px;
+        height: 0px;
         
         position: relative;
         text-align: center;
@@ -105,20 +107,28 @@ body{
         display: flex;
        
     }
+    /* .sec3{
+        margin: auto 300px;
+    } */
 .flex{
  
 background-color: rgba(111, 77, 67, 0.236);
       padding: 8px;
-       margin: 5px ;
+       margin: 30px ;
        box-shadow: 8px 15px 10px gray;
         border-radius: 10px;
+        height: 250px;
+        width: 350px;
+        text-align: center;
+
 }
-.donate-people{
+
+/* .donate-people{
     display: flex;
     justify-content: center center;
-    align-items: center center;
+    /* align-items: center center; */
     
-}
+/* }
 .contribute{
     width: 50%;
     margin: 20px 10px 10px 10px;
@@ -127,4 +137,30 @@ background-color: rgba(111, 77, 67, 0.236);
     width: 40%;
     margin-left: 60%;
     margin-top:-5% ;
+}
+.help{
+    width: 50%;
+} */ 
+.flexition{
+    background-color: rgba(136, 49, 203, 0.236);
+      padding: 8px;
+       margin: 30px ;
+       box-shadow: 8px 15px 10px gray;
+        border-radius: 10px;
+        height: 300px;
+        width: 400px;
+        text-align: center;
+        overflow-y: scroll;
+}
+.pic-area{
+    /* overflow: hidden; */
+    width: 80%;
+    padding: 5px;
+    margin: 6px;
+    overflow-y: scroll;
+
+
+}
+.donate-people{
+    display: flex;
 }
