@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 20px;
+    
+}
+.cover-area{
+    background-image: url(donation11.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
+.text-area{
+    position: absolute;
+    top: 30px;
+    bottom: 30px;
+    padding: 10px;
+}
