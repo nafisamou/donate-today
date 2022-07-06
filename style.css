@@ -35,10 +35,7 @@ body{
 .font-style{
     font-weight: 100;
 }
-/* .link-button{
-    padding: 20px;
-    margin: 5px;
-    color: black; */
+
     .link-button{
         color: white;
         background-color: red;
@@ -53,9 +50,6 @@ body{
         
     }
     .donate-area{
-        /* position: absolute; */
-        /* top: 50%;
-        left: 50%; */
         text-align: center;
         color: black;
         font-weight: 500px;
@@ -108,9 +102,7 @@ body{
         display: flex;
        
     }
-    /* .sec3{
-        margin: auto 300px;
-    } */
+    
 .flex{
  
 background-color: rgba(111, 77, 67, 0.236);
@@ -124,24 +116,7 @@ background-color: rgba(111, 77, 67, 0.236);
 
 }
 
-/* .donate-people{
-    display: flex;
-    justify-content: center center;
-    /* align-items: center center; */
-    
-/* }
-.contribute{
-    width: 50%;
-    margin: 20px 10px 10px 10px;
-}
-.pic-area{
-    width: 40%;
-    margin-left: 60%;
-    margin-top:-5% ;
-}
-.help{
-    width: 50%;
-} */ 
+
 .flexition{
     background-color: rgba(136, 49, 203, 0.236);
       padding: 8px;
@@ -154,7 +129,7 @@ background-color: rgba(111, 77, 67, 0.236);
         overflow-y: scroll;
 }
 .pic-area{
-    /* overflow: hidden; */
+   
     width: 80%;
     padding: 5px;
     margin: 6px;
@@ -171,5 +146,9 @@ background-color: rgba(111, 77, 67, 0.236);
 }
 .final-part{
     display: flex;
-    
+    justify-content: center;
+    border: 1px solid sandybrown;
+    box-shadow:3px 5px 10px gray; 
+    margin: 50px 400px 50px 400px;
+    background-color: darksalmon;
 }
