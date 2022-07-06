@@ -50,7 +50,7 @@ body{
     
         
     }
-    .donate-plan{
+    .donate-area{
         /* position: absolute; */
         /* top: 50%;
         left: 50%; */
@@ -82,11 +82,8 @@ body{
        box-shadow: 5px 5px 5px gray;
         border-radius: 10px;
     }
-    .direction-plan{
+    .direction-area{
         margin: 15px;
-        border: 1px solid gray;
-       
-
     }
     .other-amount{
 
@@ -103,4 +100,16 @@ body{
        
         
     }
+    .flexible-area {
 
+        display: flex;
+       
+    }
+.flex{
+ 
+background-color: rgba(111, 77, 67, 0.236);
+      padding: 8px;
+       margin: 5px ;
+       box-shadow: 8px 15px 10px gray;
+        border-radius: 10px;
+}
