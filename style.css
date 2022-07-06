@@ -12,7 +12,6 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: soft-light;
-    /* backface-visibility: hidden; */
     position: relative;
     top: 0px;
     right: 0px;
@@ -89,7 +88,6 @@ body{
         margin: auto ; 
         top: 15px;
         height: 0px;
-        
         position: relative;
         text-align: center;
         border-radius: 6px;
@@ -98,15 +96,13 @@ body{
         
     }
     .flexible-area {
-
-        display: flex;
-       
+        display: flex;  
     }
     
 .flex{
  
 background-color: rgba(111, 77, 67, 0.236);
-      padding: 8px;
+       padding: 8px;
        margin: 30px ;
        box-shadow: 8px 15px 10px gray;
         border-radius: 10px;
@@ -120,9 +116,6 @@ background-color: rgba(111, 77, 67, 0.236);
     transition: 1s;
     background-color: orange;
 }
-
-
-
 .flexition{
     background-color: rgba(136, 49, 203, 0.236);
       padding: 8px;
