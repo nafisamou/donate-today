@@ -86,7 +86,7 @@ body{
         border: 1px solid gray;
         width: 70%;
         padding: 0px;
-        margin: auto; 
+        margin: auto ; 
         top: 15px;
         height: 0px;
         
@@ -113,8 +113,14 @@ background-color: rgba(111, 77, 67, 0.236);
         height: 250px;
         width: 350px;
         text-align: center;
+        cursor: pointer;
 
 }
+.flex:hover{
+    transition: 1s;
+    background-color: orange;
+}
+
 
 
 .flexition{
@@ -152,3 +158,14 @@ background-color: rgba(111, 77, 67, 0.236);
     margin: 50px 400px 50px 400px;
     background-color: darksalmon;
 }
+.finish{
+    border: 1px solid black;
+    box-shadow:3px 5px 10px gray; 
+    margin: auto;
+    padding: 25px;
+    background-color: black;
+    color: aliceblue;
+    text-align: right;
+
+}
+    
